@@ -35,7 +35,7 @@ class LinkedList:
 
 
 l1 = LinkedList([1, 2, 4, 11, 15])
-l2 = LinkedList([2, 3, 5, 10, 15, 17])
+l2 = LinkedList([2, 3, 5, 10, 15, 17, 20])
 total_doc = 20
 doc = list(range(1, total_doc + 1))
 not_l2 = LinkedList(list(set(doc) - l2.to_set()))
